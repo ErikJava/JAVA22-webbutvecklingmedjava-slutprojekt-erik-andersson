@@ -1,0 +1,36 @@
+@charset "ISO-8859-1";
+
+body {
+  margin: auto;
+  width: 50%;
+  border: 3px solid Goldenrod;
+  padding: 10px;
+  padding-top: 40px;
+  overflow-wrap: break-word;
+
+}
+
+form {
+    position: relative;
+    z-index: 1;
+    background: Wheat;
+    max-width: 360px;
+    margin: 0 auto 100px;
+    margin-top: 50px;
+    padding: 45px;
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+/* Previous searches */
+h2 {
+	text-align: center;
+	margin-bottom: 30px;
+	margin-top: -50px;	
+}
+
+/* Cookie values */
+h4 {	
+	text-align: center;
+	padding-bottom: 20px;	
+}
